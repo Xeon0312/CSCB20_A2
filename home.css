@@ -1,41 +1,47 @@
-@charset "utf-8"
 
 body {
   margin: 0;
   padding: 0;
-  background: #0b0b0b;
+  background: #fff;
 }
 
-.headerWrap {
-  font-size: 30px;
-  font-weight: bold;
+.wrapper {
+  font-size: 25px;
+  font-weight: lighter;
   color: #000000;
+}
+.menu{
+  display: none;
+}
+h1{
+  color: #000000
 }
 
 li {
   display: inline-block;
+  float:right
 }
 
 li a {
   text-decoration: none;
   display: inline-block;
-  color: #fff;
-  font-family: sans-serif;
+  color: #000000;
+  font-family: Source Sans Pro;
   font-weight: lighter;
-  font-size: 25px;
-  padding: 0 20px;
+  font-size: 15px;
+  padding: 0 10px;
 }
 
 .cool_line::after {
   content: '';
   display: block;
-  width: 0;
+  width: 0%;
   height: 2px;
-  background: #000000;
-  transition: width .3s;
+  background: #000;
+  transition: width 1s;
 }
 
-.cool_line: hover::after {
+li a:hover.cool_line::after  {
   width: 100%;
-  transition: width .3s;
+  transition: width 1s;
 }
