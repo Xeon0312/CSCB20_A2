@@ -1,0 +1,9 @@
+.sitename{
+  position:absolute;
+  left: -42px;
+  top: -13px;
+}
+
+li {
+  float:right;
+}
