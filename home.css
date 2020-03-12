@@ -1,0 +1,41 @@
+@charset "utf-8"
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #0b0b0b;
+}
+
+.headerWrap {
+  font-size: 30px;
+  font-weight: bold;
+  color: #000000;
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 25px;
+  padding: 0 20px;
+}
+
+.cool_line::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #000000;
+  transition: width .3s;
+}
+
+.cool_line: hover::after {
+  width: 100%;
+  transition: width .3s;
+}
