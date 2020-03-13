@@ -1,9 +1,26 @@
 .sitename{
-  position:absolute;
-  left: -42px;
-  top: -13px;
+  float: left;
+}
+
+
+.menu{
+  display: none;
 }
 
 li {
+
   float:right;
+  display: inline-block;
+}
+
+.headerWrap{
+  max-width: 1668px;
+  margin: 0 auto;
+}
+
+ul{
+  position: relative;
+  float: right;
+  top: 35px;
+  right: 5%;
 }
