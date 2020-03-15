@@ -6,19 +6,3 @@ body{
 .sitename {
   float: left;
 }
-
-.menu {
-  display: none;
-}
-
-li {
-  float: right;
-  display: inline-block;
-}
-
-ul {
-  position: relative;
-  float: right;
-  top: 35px;
-  right: 5%;
-}
