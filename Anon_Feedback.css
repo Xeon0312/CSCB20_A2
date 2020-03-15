@@ -1,15 +1,18 @@
-* {
-  margin: 0;
-  padding: 0;
-  font-family: Source Sans Pro;
-}
 
-body {
+.Anon-body {
   background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   -webkit-background-size: cover;
+
+}
+
+.Feedback-body {
+  max-width: 1668px;
+  margin: 40px;
+  padding: 40px
+  font-family: Source Sans Pro;
 }
 
 .contact-us {
