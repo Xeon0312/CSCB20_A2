@@ -1,3 +1,5 @@
+
+
 .sitename h1{
   margin-bottom: -45px;
 }
@@ -57,11 +59,12 @@
   }
 
   #menu_buttom:checked~.topnav a {
-    display: none;
+    display: block;
   }
 
   .topnav a {
     margin: 2px;
+    display: none;
   }
 
   .icon {
@@ -69,3 +72,5 @@
     display: block !important;
   }
 }
+a:visited {color:#8F4286;}
+a:link {color:#000000;}
