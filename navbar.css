@@ -55,7 +55,7 @@
     font-size: 12px;
     text-align: center;
     display: block;
-    background-color: #ffffffcc;
+    background-color: #89D0A8cc;
   }
 
   #menu_buttom:checked~.topnav a {
