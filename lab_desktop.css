@@ -3,6 +3,9 @@ body{
       margin: 0 auto;
 }
 
+.headerWrap{
+  background: #fff;
+}
 .sitename {
   float: left;
 }
@@ -11,14 +14,20 @@ body{
   display: none;
 }
 
-li {
+.menubar li {
   float: right;
   display: inline-block;
 }
 
-ul {
+.menubar ul {
   position: relative;
   float: right;
   top: 35px;
   right: 5%;
+}
+
+.container {
+  min-height: 100vh;
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  background-repeat: no-repeat;
 }
