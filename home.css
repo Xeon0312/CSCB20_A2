@@ -6,9 +6,7 @@ body {
 }
 
 
-img {
+.pc {
   max-width: 100%;
   max-height: 100%;
-  position: relative;
-  top: 70px;
 }
