@@ -1,24 +1,22 @@
-.sitename{
+.sitename {
   float: left;
 }
 
-
-.menu{
+.menu {
   display: none;
 }
 
 li {
-
-  float:right;
+  float: right;
   display: inline-block;
 }
 
-.headerWrap{
+.headerWrap {
   max-width: 1668px;
   margin: 0 auto;
 }
 
-ul{
+ul {
   position: relative;
   float: right;
   top: 35px;

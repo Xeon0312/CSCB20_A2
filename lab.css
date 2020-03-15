@@ -1,40 +1,40 @@
-
-.container{
+.container {
   min-height: 100vh;
   background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
   background-repeat: no-repeat;
 }
 
-.container1{
+.container1 {
   max-width: 1000px;
   margin: auto;
   padding: 40px;
   display: flex;
   flex-wrap: wrap;
 }
-.container2{
+
+.container2 {
   max-width: 1000px;
   margin: auto;
   padding: 40px;
   display: flex;
-  flex-wrap: wrap; 
-  justify-content:space-between;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.lab-table{
+.lab-table {
   background: #f1f1f1;
   flex: 1;
   margin: 10px;
   text-transform: uppercase;
 }
 
-.lab-header{
+.lab-header {
   color: #fff;
   position: relative;
   margin-bottom: 20px;
 }
 
-.lab{
+.lab {
   font-size: 30px;
   display: flex;
   align-items: center;
@@ -42,30 +42,29 @@
   padding: 40px 0;
 }
 
-.lab span{
+.lab span {
   font-size: 30px;
 }
 
-
-.lab-list{
+.lab-list {
   padding: 10px 20px;
 }
 
-.lab-list li{
+.lab-list li {
   margin: 8px 0;
   font-size: 14px;
   color: #344;
   text-align: center;
 }
 
-.border{
+.border {
   width: 80px;
   height: 1px;
   background: #ddd;
   margin: auto;
 }
 
-.lab-table a{
+.lab-table a {
   display: block;
   width: 80%;
   margin: auto;
@@ -77,43 +76,53 @@
   max-width: 360px;
   transition: .2s linear;
 }
-.lab-table a:hover{
+
+.lab-table a:hover {
   border-radius: 30px;
 }
-.table1 .lab-header{
+
+.table1 .lab-header {
   background: #2980b9;
 }
-.table2 .lab-header{
+
+.table2 .lab-header {
   background: #2c3e50;
 }
-.table3 .lab-header{
+
+.table3 .lab-header {
   background: #f08080;
 }
-.table4 .lab-header{
+
+.table4 .lab-header {
   background: #DDA0DD;
 }
-.table5 .lab-header{
-  background: #40E0D0;
-}
-.table6 .lab-header{
-  background: #2980b9;
-}
-.table7 .lab-header{
-  background: #2c3e50;
-}
-.table8 .lab-header{
-  background: #f08080;
-}
-.table9 .lab-header{
-  background: #DDA0DD;
-}
-.table10 .lab-header{
+
+.table5 .lab-header {
   background: #40E0D0;
 }
 
+.table6 .lab-header {
+  background: #2980b9;
+}
+
+.table7 .lab-header {
+  background: #2c3e50;
+}
+
+.table8 .lab-header {
+  background: #f08080;
+}
+
+.table9 .lab-header {
+  background: #DDA0DD;
+}
+
+.table10 .lab-header {
+  background: #40E0D0;
+}
 
 @media screen and (max-width:780px) {
-  .pricing-table{
+  .pricing-table {
     flex: 100%;
   }
 }
@@ -124,13 +133,12 @@
   color: #000000;
 }
 
-h1{
+h1 {
   color: #000000
 }
 
-
 li a {
-position: relative;
+  position: relative;
   text-decoration: none;
   display: inline-block;
   color: #000000;
@@ -138,7 +146,6 @@ position: relative;
   font-weight: lighter;
   font-size: 20px;
   padding: 0 10px;
-
 }
 
 .cool_line::after {
@@ -150,12 +157,12 @@ position: relative;
   transition: width 1s;
 }
 
-li a:hover.cool_line::after  {
+li a:hover.cool_line::after {
   width: 100%;
   transition: width 1s;
 }
 
-img{
-max-width: 100%;
-max-height: 100%
+img {
+  max-width: 100%;
+  max-height: 100%
 }
