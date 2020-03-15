@@ -1,24 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 1668px;
+  margin: 0 auto;
+  
+}
 
-.container{
+.topnav {
+  max-width: 1668px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
   min-height: 100vh;
   background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
   background-repeat: no-repeat;
 }
 
-.container1{
-  max-width: 1000px;
-  margin: auto;
+.container1 {
+  max-width: 1668px;
+  margin: 40px;
   padding: 40px;
   display: flex;
   flex-wrap: wrap;
 }
-.container2{
-  max-width: 1000px;
-  margin: auto;
+
+.container2 {
+  max-width: 1668px;
+  margin: 40px;
   padding: 40px;
   display: flex;
-  flex-wrap: wrap; 
-  justify-content:space-between;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .lab-table{
@@ -89,73 +103,9 @@
 .table3 .lab-header{
   background: #f08080;
 }
-.table4 .lab-header{
-  background: #DDA0DD;
-}
-.table5 .lab-header{
-  background: #40E0D0;
-}
-.table6 .lab-header{
-  background: #2980b9;
-}
-.table7 .lab-header{
-  background: #2c3e50;
-}
-.table8 .lab-header{
-  background: #f08080;
-}
-.table9 .lab-header{
-  background: #DDA0DD;
-}
-.table10 .lab-header{
-  background: #40E0D0;
-}
-
 
 @media screen and (max-width:780px) {
   .pricing-table{
     flex: 100%;
   }
-}
-
-.wrapper {
-  font-size: 25px;
-  font-weight: lighter;
-  color: #000000;
-}
-
-h1{
-  color: #000000
-}
-
-
-li a {
-position: relative;
-  text-decoration: none;
-  display: inline-block;
-  color: #000000;
-  font-family: Source Sans Pro;
-  font-weight: lighter;
-  font-size: 20px;
-  padding: 0 10px;
-
-}
-
-.cool_line::after {
-  content: '';
-  display: block;
-  width: 0%;
-  height: 2px;
-  background: #000;
-  transition: width 1s;
-}
-
-li a:hover.cool_line::after  {
-  width: 100%;
-  transition: width 1s;
-}
-
-img{
-max-width: 100%;
-max-height: 100%
 }
