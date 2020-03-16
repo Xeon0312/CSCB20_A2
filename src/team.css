@@ -4,13 +4,11 @@ body {
   background-attachment: fixed;
   background-size: cover;
   -webkit-background-size: cover;
-    margin: 0;
-    padding: 0;
-    max-width: 1668px;
-    margin: 0 auto;
-
+  margin: 0;
+  padding: 0;
+  max-width: 1668px;
+  margin: 0 auto;
 }
-
 
 .element {
   float: left;
