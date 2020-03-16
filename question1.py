@@ -13,7 +13,7 @@ def welcome(name):
     return "Welcome, " + updateStr(name) + ", to my CSCB20 website!"
 
 
-def updateStr(name):
+def generateResponse(name):
     output = ""
     if name.isalpha():
         for c in name:
