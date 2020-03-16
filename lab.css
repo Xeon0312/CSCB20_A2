@@ -1,3 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 1668px;
+  margin: 0 auto;
+  
+}
+
+.topnav {
+  max-width: 1668px;
+  margin: 0px;
+  padding: 0px;
+}
+
 .container {
   min-height: 100vh;
   background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
@@ -6,7 +20,7 @@
 
 .container1 {
   max-width: 1000px;
-  margin: auto;
+  margin: 40px;
   padding: 40px;
   display: flex;
   flex-wrap: wrap;
@@ -14,7 +28,7 @@
 
 .container2 {
   max-width: 1000px;
-  margin: auto;
+  margin: 40px;
   padding: 40px;
   display: flex;
   flex-wrap: wrap;
