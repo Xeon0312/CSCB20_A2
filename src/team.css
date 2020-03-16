@@ -1,13 +1,17 @@
 body {
+  margin: 0;
+  padding: 0;
+  max-width: 1668px;
+  margin: 0 auto;
+  
+}
+
+.contanier {
   background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   -webkit-background-size: cover;
-  margin: 0;
-  padding: 0;
-  max-width: 1668px;
-  margin: 0 auto;
 }
 
 .element {
@@ -33,4 +37,9 @@ body {
   padding: 10px;
   width: 350px;
   height: 220px;
+}
+
+.teamimg{
+  width: 100%;
+  height: auto;
 }

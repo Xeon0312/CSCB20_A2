@@ -1,7 +1,10 @@
 .footerNav1 .navlink {
   float: inline-end;
   background: #282C34cc;
-  text-align: center
+  text-align: center;
+  width:100%;
+  position: absolute;
+  bottom: 20px;
 }
 
 .cool_line {
