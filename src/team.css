@@ -11,13 +11,7 @@ body {
 
 }
 
-.contanier {
-  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  -webkit-background-size: cover;
-}
+
 
 .element {
   float: left;

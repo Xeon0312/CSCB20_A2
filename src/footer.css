@@ -1,20 +1,12 @@
-.footerNav1 .navlink {
-  float: inline-end;
-  background: #282C34cc;
+.footerNav1 {
+  display: block;
   text-align: center;
-  width:100%;
-  position: absolute;
-  bottom: 20px;
+  width: 100%;
+  padding: 10px 0;
 }
 
-.cool_line {
+.cool_line {}
 
-}
+.copyright {}
 
-.copyright {
-
-}
-
-.another {
-
-}
+.another {}
