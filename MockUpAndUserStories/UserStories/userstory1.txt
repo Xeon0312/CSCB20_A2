@@ -1,11 +1,21 @@
-1. As a student user, the student must be able to see the cscb20 figure on the left top of the homepage. The student must be able to see the nevigation bar on the top of the webpage. In the nevagation bar, student will be able to get the following section: Team, Calendar, Lab, Syllabus, Feedback, Assignment, Mark Us, Piazza, Home.
+1. As a student user, the student must be able to see the cscb20 figure on the left top of the homepage. The student must be able to see the nevigation bar on the top of the webpage. In the nevagation bar, student will be able to get the following section: Home, Piazza, Mark Us, Assignment, Feedback, Syllabus, Lab, Team， Calendar
 
-2. Student should be able to get to the syllabus.pdf though the clicking of the "Syllabus" in the nevigation bar. 
+2. Student should be able to get to the Piazza though the clicking of the "Piazza" in the nevigation bar. 
 
-3. Student should be able to get to the piazza website though the clicking of the "Piazza" in the nevigation bar. 
+3. Student should be able to get to the Mark Us website though the clicking of the "Mark Us" in the nevigation bar. 
 
-4. Student should be able to get to the Mark Us website though the clicking of the "Mark Us" in the nevigation bar. 
+4. Student should be able to get to the Assignment though the clicking of the "Assignment" in the nevigation bar. 
 
-5. Student should be able to get back to the homepage though the clicking of the "Home" in the nevigation bar. 
+5. Student should be able to get to the feedback though the clicking of the "Feedback" in the nevigation bar. 
 
-6.In the footer region, student must be able to see the student names who created this website and get access to the Faculty of Computer Science at UofT through a link. 
+6. Student should be able to get to the syllabus though the clicking of the "Syllabus" in the nevigation bar. 
+
+7. Student should be able to get to the Lab section though the clicking of the "Lab" in the nevigation bar.
+
+8. Student should be able to get to the Team information though the clicking of the "Team" in the nevigation bar.
+
+9. Student should be able to get back to the homepage though the clicking of the "Home" in the nevigation bar. 
+
+10. Student should be able to get back to the Calendar page though the clicking of the "Calendar" in the nevigation bar. 
+
+11. In the footer region, student must be able to see the student names who created this website and get access to the Faculty of Computer Science at UofT through a link. 
